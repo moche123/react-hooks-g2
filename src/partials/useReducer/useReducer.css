@@ -1,0 +1,5 @@
+label{
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: center;
+}
