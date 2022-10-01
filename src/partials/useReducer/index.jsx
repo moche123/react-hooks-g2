@@ -23,7 +23,7 @@ const initial = [
 const reducer = (state,action) => {
     switch(action.type){
         case 'SWITCH':
-            let newState = state.map((todo) =>  todo.id == action.id ? { ...todo,complete: !todo.complete } : todo)
+            let newState = state.map((todo) =>  todo.id === action.id ? { ...todo,complete: !todo.complete } : todo)
             console.log(newState)
             return newState 
           

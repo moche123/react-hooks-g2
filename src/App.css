@@ -1,3 +1,10 @@
 .App {
   text-align: center;
+  padding-top: 2rem;
+}
+.link{
+  margin: 1rem;
+  color: #0affad;
+  text-decoration: none;
+  font-weight: bold;
 }
